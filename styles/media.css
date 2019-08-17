@@ -1,0 +1,32 @@
+@media (max-width: 1200px) {
+    .main-content {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 900px) {
+    .main-content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 768px) {
+    header .header-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    header .cart {
+        text-align: center;
+    }
+    header .cart-link {
+        font-size: 20px;
+    }
+}
+@media (max-width: 576px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-widtH: 420px) {
+    header .header-title h1 {
+        font-size: 30px;
+    }
+}
